@@ -6,7 +6,7 @@ public class Main {
         ArrayList<Wolf> wolfArrayList =new ArrayList<Wolf>();
        for (int i=0;i<3;i++){
            wolfArrayList.add(new Wolf());
-
+           wolfArrayList.get(i).ShowInfo();
        }
 
 //        Lulu bLulu =new Lulu();
